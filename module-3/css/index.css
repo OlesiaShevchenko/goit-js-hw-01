@@ -1,0 +1,173 @@
+/* Universal selector   */
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: pink;
+    height: 100vh;
+}
+ 
+/* Element selector */
+h2 {
+    font-size: 32px;
+}
+/* Class selector - primenit pravilo i pereispolzovat */
+.black-bg{      
+    background-color:black;
+}
+
+.white-text{
+    color: white;
+}
+/* Id selector - primenit pravilo k 1 elementu*/
+#unique-heading{
+    font-style: italic;
+}
+
+/* Selector for parent element*/
+.parent{
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    font-size: 32px;
+    }
+/* Child selector */
+
+.parent .child{
+    width: 50px;
+    height: 50px;
+    background-color: blue; 
+}
+
+/* Attribute selector */
+a[href="#"] {
+    background-color: black;
+    color: yellow
+}
+/* Pseude selector  */
+.parent:hover{
+    background-color: yellow;
+}
+
+.test{
+    background-color: green;
+}
+
+/* Sister selector */
+p+h2{
+    background-color: yellow;
+}
+/* Nesting selectors */
+.red-text{
+    color: red;
+    color: yellow;
+}
+.green-text{
+    color:green;
+}
+.blue-text{
+    color:blue;
+}
+
+.red-text, 
+.green-text, 
+.blue-text{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.parent-for-text{
+    font-size: 32px;
+}
+
+.content-box, 
+.border-box{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px;
+}
+
+.content-box{
+    box-sizing: content-box;
+    background-color: yellow;
+}
+
+.border-box{
+    box-sizing: border-box;
+    background-color: green;
+}
+
+.not-inline-block{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.inline-block{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-color: red;
+}
+
+.template{
+    width: 650px;
+    margin: 10px auto;
+}
+
+header, nav, footer{
+    height: 150px;
+    border: 1px solid;
+    margin: 5px 0;    
+}
+
+main,aside{
+    border: 1px solid;  
+    height: 300px;
+    display: inline-block;
+    margin: 5px 0; 
+}
+
+main{
+    width: calc(60% - 4px);
+}
+
+aside{  
+    width: calc(40% - 4px);
+}
+
+.block{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+}
+
+.vm-top{
+    margin-bottom:30px;
+}
+
+.vm-bottom{
+    margin-top: 50px;
+}
+
+.margin-parent{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    padding-top:25px;
+    text-align:center;
+}
+
+.margin-child{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.text-align{
+    text-align:center;
+}
