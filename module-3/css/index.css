@@ -62,8 +62,8 @@ p+h2{
 }
 /* Nesting selectors */
 .red-text{
-    color: red;
-    color: yellow;
+    color: #b2aca6;
+ 
 }
 .green-text{
     color:green;
