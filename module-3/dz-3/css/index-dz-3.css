@@ -53,6 +53,11 @@ h3{
 }
 
 
+.feature-list-name{
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
 
 /* * {
     outline: 1px solid red;
