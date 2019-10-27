@@ -58,6 +58,10 @@ h3{
     color: #b4ad9e;
 }
 
+.button{
+align-items: center;
+}
+
 
 /* * {
     outline: 1px solid red;
