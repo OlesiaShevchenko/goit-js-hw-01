@@ -9,7 +9,7 @@ body{
 
 .page-header li {    
     text-transform: uppercase;
-    color: red;
+    /* color: red; */
     display: inline-block;
     font-size: 8px;
     line-height: 24px;
@@ -18,10 +18,9 @@ body{
     font-weight: 400;
     text-align: center;
     margin: 40px;
-
 }
 
-li:hover {
+.page-header li:hover {
     color:#25b4f5;
 }
 .menu-link{
@@ -55,6 +54,6 @@ h3{
 
 
 
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
