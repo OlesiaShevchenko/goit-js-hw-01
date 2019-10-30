@@ -29,6 +29,7 @@ body, p, button {
 
 .navigation li a:hover{
     color:#03a9f4;
+    text-decoration: none;
 }
 
 .posts-wrap{
