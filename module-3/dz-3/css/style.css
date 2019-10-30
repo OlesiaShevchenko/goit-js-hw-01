@@ -57,7 +57,7 @@ body, p, button {
 .post img{
     display: block;
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 .post .category{
