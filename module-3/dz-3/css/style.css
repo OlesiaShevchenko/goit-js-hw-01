@@ -43,7 +43,7 @@ body, p, button {
     margin-bottom: 130px;
 }
 
-.post:nth-child(event){
+.post:nth-child(even){
     margin-right: 0;
 }
 
