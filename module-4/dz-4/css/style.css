@@ -80,9 +80,9 @@ h2{
 }
 
 .products .item {
-    display: inline-block;
     margin-right: 30px;
     margin-bottom: 30px;
+    float: left;
     /* width: 255px; */
 }
 
@@ -106,19 +106,12 @@ h2{
     display: inline-block;
 }
 
-.item{
-    float: left;
-}
-.item price{
-    float: right;
-}
-
 .product-name{
     background-color:#323232;
 }
 
-.product-name:hover{
-    color:#1abc9c;  
+.item:hover .product-name{
+    background-color:#1abc9c;  
 }
 
 .product-name-text{
@@ -135,7 +128,7 @@ h2{
 }
 
 .price{
-    background-color:#8c8c8c;
+    background-color:rgba(255, 255, 255, 0.44);
     color: #ffffff;
     font-family: "Roboto";
     font-weight: 900;
