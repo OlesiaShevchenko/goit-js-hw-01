@@ -1,9 +1,4 @@
 
-.page-header{
-    margin-top: 40px;
-
-}
-
 .logo-text{
     font-family: "Roboto"  ;
     font-size: 30px;
@@ -22,7 +17,7 @@
 .wrapper{
     width: 1110px;
     margin: 0 auto;
-
+    margin-top: 40px;
 }
 
 .navigation {
