@@ -68,7 +68,8 @@
     width: 100%;
 }
 
-.slider-overlay{
+.slider-overlay-img::after{
+    content: "<div/>";
     width: 100%;
     background-color: rgba(0, 0, 0, 0.52);
     position: absolute;
@@ -115,10 +116,11 @@
     height: 105px;
     background-color: #55a290;
     margin-top: 15px;
+    opacity: 0.65;
 }
 
 .arrow:hover{
-    opacity: 0.65;
+    opacity: 1;
 }
 
 
@@ -146,10 +148,16 @@
 
 .slider-text-align h3{
     text-align: left;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+
 }
 
 .slider-text-align h2{
     text-align: left;
+    font-family: "Roboto";
+font-weight: 900;
     
 }
 
@@ -186,11 +194,9 @@
     content: "";
     width: 160px;
     height: 8px;    
-    margin:0 auto;  
+    margin: 35px auto 92px auto;  
     background: #1abc9c;
     display: block;
-    margin-top: 35px;
-    margin-bottom: 92px;    
 }
 
 .products .item{
@@ -260,27 +266,6 @@
     clear: both;
 }
 
-.underlined-news:after{
-    content: "";
-    width: 160px;
-    height: 3px;    
-    margin:0 auto;  
-    background: #1abc9c;
-    display: block;
-    margin-top: 15px; 
-    margin-bottom: 35px; 
-    margin-left: 0px; 
-}
-
-.underlined-news{
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 26px;
-    color: #555252;
-    font-family: "Open Sans";
-    font-weight: 600;
-}
-
 .text-news{
     font-size: 14px;
     letter-spacing: 0px;
@@ -313,28 +298,7 @@
     position: relative;
 }
 
-.news-item-href {
-    display: block;
-}
 
-.news-item-href img{
-    width: 350px;
-    height: 260px;
-}
-
-.news-item{
-    float: left;
-    margin-right: 30px;
-    width: 350px;
-}
-
-.news article:last-child {
-    margin-right: 0px;
-}
-
-.news{
-    margin-bottom: 80px; 
-}
 
 .product-img-hover{
     background-color: rgba(0, 0, 0, 0.55);
