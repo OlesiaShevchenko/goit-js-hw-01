@@ -12,16 +12,16 @@ body, p, button {
     margin: 0 auto;
 }
 
-.navigation ul {
+/* .navigation ul {
     text-align: center;
 }
 .navigation li {
     display:inline-block;
     margin-top: 75px;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+} */
 
-}
 .navigation li a {
     text-transform: uppercase;
     text-decoration: none;
