@@ -181,7 +181,6 @@ h2:after {
 }
 
 .team-list-item {
-  position: relative;
   margin-bottom: 85px;
 }
 
@@ -209,6 +208,7 @@ h2:after {
 }
 
 .team-list-image-container {
+    position: relative;
   transition-property: all;
   transition-duration: 200ms;
 }
@@ -300,8 +300,8 @@ h2:after {
 
 .footer p {
   color: #333333;
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 .company-name {
