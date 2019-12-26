@@ -35,10 +35,19 @@
   font-weight: normal;
   font-style: italic; 
 }
+
+@font-face {
+  font-family: "Hanna";
+  src: url("../module-7/font/HanaleiFill-Regular.woff") format("woff")
+  url("../module-7/font/HanaleiFill-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic; 
+}
+
 /* PAGE-HEADER */
 
 .logo-text {
-  font-family: "Wisdom";
+  font-family: "Hanna";
   font-size: 26px;
   text-decoration: none;
   font-weight: 400;
