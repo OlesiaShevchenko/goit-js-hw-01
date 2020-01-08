@@ -20,7 +20,7 @@
   }
   
   .container {
-    max-width: 940px;
+    max-width: 1200px;
   }
   
   .page-header {
@@ -249,7 +249,18 @@
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
-  
+
+  .team-list-socials svg{
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      fill: #f38181;
+  }
+
+  .team-list-socials:hover use{
+    fill: #ffffff;
+    }
+
   .team-list-image-container {
       position: relative;
     transition-property: all;
@@ -271,6 +282,7 @@
     opacity: 0;
     transition-property: all;
     transition-duration: 200ms;
+    fill: #ffffff;
   }
   
   .team-list-image-container:hover .img-hover {
