@@ -1,0 +1,44 @@
+.line {
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.footer__text {
+  color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.footer__link {
+  color: #f38181;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+
+.footer__email {
+  font-size: 15px;
+  color: #cccccc;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: italic;
+}
+
+.footer__btn {
+  font-size: 14px;
+  color: $primary-text-color;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+}

@@ -1,0 +1,120 @@
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.our-team__item {
+  margin-bottom: 85px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 470px;
+  /* background-color: rgb(76, 118, 255); */
+  background-image: linear-gradient(#ee8a8a, #fce38a);
+  opacity: 0;
+  transition: background-color 200ms linear;
+}
+
+.our-team__item:hover .overlay {
+  opacity: 0.9;
+  transform: translate(-10px, -10px);
+  transition: background-color 200ms linear;
+}
+
+.share__list {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.share__list svg {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  fill: #f38181;
+}
+
+.share__list li:hover svg {
+  fill: $primary-text-color;
+}
+
+.team-photo {
+  position: relative;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+.share {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: linear-gradient(
+    160deg,
+    rgba(243, 129, 129, 0.5),
+    rgba(252, 227, 138, 1)
+  );
+  box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 200ms;
+  fill: $primary-text-color;
+}
+
+.team-photo:hover .share {
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+.team-photo:hover {
+  transition-property: all;
+  transition-duration: 200ms;
+  transform: translate(-10px, -10px);
+}
+
+.share__list {
+  display: flex;
+}
+
+.share__list li {
+  background: rgba(252, 227, 138, 1);
+
+  &:hover {
+    background: rgba(149, 225, 211, 1);
+  }
+}
+
+.share__list a {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-photo__name {
+  color: #333333;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.team-photo__position {
+  color: #999999;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+}

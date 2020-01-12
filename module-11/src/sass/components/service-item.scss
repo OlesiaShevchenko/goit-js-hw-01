@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.service__item {
+  width: 80px;
+  background-size: contain;
+}
+
+.service__item svg {
+  display: block;
+  margin-left: 20px;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+}
+
+.service__box {
+  width: 290px;
+}
+
+.service__heading {
+  font-size: 14px;
+  color: #333333;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
+.service__text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #999999;
+  line-height: 24px;
+}

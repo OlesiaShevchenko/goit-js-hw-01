@@ -1,6 +1,19 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
+@import 'helpers/variables.scss';
 @import 'normalize.scss';
 @import 'base.scss';
+
+// Components
+
+@import 'components/container.scss';
+@import 'components/link.scss';
+@import 'components/header.scss';
+@import 'components/header-content.scss';
+@import 'components/navigation.scss';
+@import 'components/section.scss';
+@import 'components/service-list.scss';
+@import 'components/service-item.scss';
+@import 'components/team.scss';
+@import 'components/footer.scss';

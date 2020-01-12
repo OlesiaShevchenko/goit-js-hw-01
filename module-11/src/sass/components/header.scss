@@ -1,0 +1,55 @@
+.page-header {
+  background-image: linear-gradient(#ee8a8a, #fce38a);
+}
+
+.header {
+  height: 1000px;
+  padding-top: 30px;
+  text-align: center;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(252, 227, 138, 0.9)),
+      to(rgba(243, 129, 129, 0.9))
+    ),
+    url(../../images/1x/img.png);
+  background-image: -o-linear-gradient(
+      bottom,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    ),
+    url(../../images/1x/img.png);
+  background-image: linear-gradient(
+      to top,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    ),
+    url(../../images/1x/img.png);
+  background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .header {
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        from(rgba(252, 227, 138, 0.9)),
+        to(rgba(243, 129, 129, 0.9))
+      ),
+      url(../../images/2x/img@2x.png);
+    background-image: -o-linear-gradient(
+        bottom,
+        rgba(252, 227, 138, 0.9),
+        rgba(243, 129, 129, 0.9)
+      ),
+      url(../../images/2x/img@2x.png);
+    background-image: linear-gradient(
+        to top,
+        rgba(252, 227, 138, 0.9),
+        rgba(243, 129, 129, 0.9)
+      ),
+      url(../../images/2x/img@2x.png);
+  }
+}
